@@ -412,7 +412,7 @@ header .button {
   }
 }
 .backsplash {
-  width: 980px;
+  max-width: 980px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -420,7 +420,7 @@ header .button {
 }
 
 .tourBanner {
-  width: 980px;
+  max-width: 980px;
   height: 200px;
   margin: 50px auto 20px auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/tours-banner.jpg);
@@ -436,7 +436,7 @@ header .button {
 }
 
 .tourTemplate .banner {
-  width: 980px;
+  max-width: 980px;
   height: 413px;
   margin: 49px auto 19px auto;
   background-position: center;
@@ -444,29 +444,33 @@ header .button {
   background-repeat: no-repeat;
   color: #FFFFFF;
   font-family: ProximaNovaSC;
+  position: relative;
 }
 .tourTemplate .banner h1 {
   font-size: 80px;
   margin: 30px;
 }
 .tourTemplate .banner h6 {
-  margin-top: 285px;
+  position: absolute;
+  right: 5px;
+  bottom: -16px;
   font-size: 30px;
   text-align: right;
 }
 .tourTemplate .triad {
   display: flex;
-  width: 980px;
+  max-width: 980px;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 .tourTemplate .triad img {
   width: 298px;
   height: 347px;
-  margin: 21px;
+  margin: 14px;
 }
 .tourTemplate .travelPlan {
-  width: 980px;
+  max-width: 980px;
   margin: 0 auto;
 }
 .tourTemplate .travelPlan h2 {
@@ -493,6 +497,12 @@ header .button {
   text-decoration: none;
   font-family: GillSans;
   font-size: 15px;
+}
+
+@media screen and (max-width: 980px) {
+  .tourTemplate .travelPlan {
+    padding: 0 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

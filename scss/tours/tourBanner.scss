@@ -1,5 +1,5 @@
 .tourBanner {
-    width: $siteWidth;
+    max-width: $siteWidth;
     height: 200px;
     margin: 50px auto 20px auto;
     background-image: linear-gradient(rgba($siteBlack, 0.45), rgba($siteBlack, 0.45)), url(../images/tours-banner.jpg);
