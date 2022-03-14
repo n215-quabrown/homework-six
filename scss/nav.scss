@@ -1,0 +1,66 @@
+nav {
+    max-width: $siteWidth;
+    height: 80px;
+    margin: 15px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: top;
+    font-family: GillSans;
+    .logo{
+        width: 92px;
+        height: 42px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .links{
+        min-width: 53%;
+        display: flex;
+        justify-content: space-between;
+        a{
+            text-decoration: none;
+            font-size: 15px;
+        }
+        span{
+            color: $siteBlue;
+        }
+    }
+}
+
+.homePage {
+    .logo {
+        border: 2px solid $siteWhite;
+        color: $siteWhite;
+    }
+    .links {
+        a {
+            color: $siteWhite;
+        }
+    }
+    border-bottom: 2px solid $siteWhite;
+}
+
+.notHomePage {
+    .logo {
+        border: 2px solid $siteBlack;
+        color: $siteBlack;
+    }
+    .links {
+        a {
+            color: $siteBlack;
+        }
+    }
+    border-bottom: 2px solid $siteBlack;
+}
+
+@media screen and (max-width: $siteWidth) {
+    nav {
+        padding: 0 20px;
+        span {
+            margin: 0 5px;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.tourBanner {
+    width: $siteWidth;
+    height: 200px;
+    margin: 50px auto 20px auto;
+    background-image: linear-gradient(rgba($siteBlack, 0.45), rgba($siteBlack, 0.45)), url(../images/tours-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $siteWhite;
+    font-family: ProximaNovaSC;
+    font-size: 60px;
+}

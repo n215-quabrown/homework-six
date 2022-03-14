@@ -1,0 +1,61 @@
+.tourTemplate {
+    .banner {
+        width: $siteWidth;
+        height: 413px;
+        margin: 49px auto 19px auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: $siteWhite;
+        font-family: ProximaNovaSC;
+        h1 {
+            font-size: 80px;
+            margin: 30px;
+        }
+        h6 {
+             margin-top: 285px;
+            font-size: 30px;
+            text-align: right;
+        }
+    }
+    .triad {
+        display: flex;
+        width: $siteWidth;
+        justify-content: center;
+        margin: 0 auto;
+        img {
+            width: 298px;
+            height: 347px;
+            margin: 21px;
+        }
+    }
+    .travelPlan {
+        width: $siteWidth;
+        margin: 0 auto;
+        h2 {
+            font-family: ProximaNovaSC;
+            font-size: 60px;
+            text-decoration: underline 2px;
+            text-underline-offset: 15px;
+        }
+        p {
+            font-family: GillSans;
+            font-size: 16px;
+            margin-bottom: 80px;
+        }
+        .button {
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $siteBlue;
+            width: 133px;
+            height: 40px;
+            border-radius: 20px;
+            color: $siteWhite;
+            text-decoration: none;
+            font-family: GillSans;
+            font-size: 15px;
+        }
+    }
+}

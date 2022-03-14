@@ -1,0 +1,26 @@
+footer {
+    max-width: $headerFooterWidth;
+    height: 100px;
+    margin: 100px auto 0 auto;
+    background-color: $siteBlue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: $siteWhite;
+    font-family: GillSans;
+    .logo {
+        width: 92px;
+        height: 42px;
+        border: 2px solid $siteWhite;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+    .icons {
+        font-size: 23px;
+    }
+}

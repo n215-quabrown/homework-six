@@ -1,0 +1,12 @@
+.featured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -43px auto 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+    .featured {
+        flex-direction: column;
+    }
+}

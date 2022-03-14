@@ -1,0 +1,39 @@
+header{
+    max-width: $headerFooterWidth;
+    height: $headerHeight;
+    background-image: linear-gradient(rgba($siteBlack, 0.45), rgba($siteBlack, 0.45)), url(../images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -95px auto 0 auto;
+    color: $siteWhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        font-family: ProximaNovaSC;
+        margin-bottom: 26px;
+        font-size: 60px;
+    }
+    p {
+        font-family: GillSans;
+        font-style: italic;
+        margin-bottom: 50px;
+        font-size: 20px;
+        text-align: center;
+        width: 460px;
+    }
+    .button {
+        width: 122px;
+        height: 40px;
+        background-color: $siteBlue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: GillSans;
+        font-size: 15px;
+        text-decoration: none;
+        color: $siteWhite;
+    }
+}

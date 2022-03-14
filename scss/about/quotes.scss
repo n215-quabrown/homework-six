@@ -1,0 +1,53 @@
+.quotes {
+    margin: 100px auto 0 auto;
+    max-width: $siteWidth;
+    h2 {
+        font-family: ProximaNovaSC;
+        font-size: 40px;
+        text-decoration: underline;
+    }
+    .quoteTile {
+        height: 150px;
+        width: 676px;
+        margin-top: 37px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        img {
+            width: 260px;
+        }
+        p {
+            width: 358px;
+            font-family: GillSans;
+            font-size: 16px;
+            font-style: italic;
+        }
+        h3 {
+            font-family: ProximaNovaSC;
+            font-size: 20px;
+            color: $siteBlue;
+        }
+    }
+}
+
+@media screen and (max-width: $siteWidth) {
+    .quotes {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 716px) {
+    .quotes {
+        .quoteTile {
+            width: 400px;
+            img {
+                width: 160px;
+            }
+            p {
+                width: 220px;
+                font-size: 12px;
+            }
+        }
+    }
+}

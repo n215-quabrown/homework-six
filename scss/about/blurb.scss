@@ -1,0 +1,19 @@
+.blurb {
+    margin: 100px auto 0 auto;
+    max-width: $siteWidth;
+    h1 {
+        font-family: ProximaNovaSC;
+        font-size: 60px;
+        text-decoration: underline;
+    }
+    p {
+        font-family: GillSans;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: $siteWidth) {
+    .blurb {
+        padding: 20px;
+    }
+}

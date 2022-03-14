@@ -1,0 +1,36 @@
+.tourTile {
+    width: 236px;
+    height: 304px;
+    margin: 27.5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $siteWhite;
+    h1 {
+        font-family: ProximaNovaSC;
+        font-size: 60px;
+        margin-bottom: -5px;
+    }
+    h2 {
+        font-family: ProximaNovaSC;
+        font-size: 30px;
+        margin-bottom: 56px;
+    }
+    .button{
+        width: 133px;
+        height: 40px;
+        background-color: $siteBlue;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: GillSans;
+        font-size: 15px;
+        text-decoration: none;
+        color: $siteWhite;
+    }
+}

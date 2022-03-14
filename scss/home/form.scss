@@ -1,0 +1,109 @@
+#form {
+    display: flex;
+    max-width: 818px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+    h1 {
+        font-family: ProximaNovaSC;
+        font-size: 60px;
+    }
+    input {
+        margin-bottom: 20px;
+        padding-left: 20px;
+        border-color: $siteBlue;
+        border-style: solid;
+        border-width: 1px;
+        height: 58px;
+    }
+    p {
+        font-family: GillSans;
+        font-size: 18px;
+    }
+    .topBoxes {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .shortBox {
+            width: 42%;
+            input {
+                width: 100%;
+            }
+        }
+        .longBox {
+            width: 55%;
+            input{
+                width: 100%;
+            }
+        }
+    }
+    .checkBox {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        input {
+            width: 85%;
+        }
+        p {
+            width: 15%;
+        }
+    }
+    .dropBoxes {
+        width: 818px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input {
+            width: 103px;
+        }
+    }
+    .messageBox {
+        width: 100%;
+        textarea {
+            width: 100%;
+            height: 192px;
+            padding: 20px;
+            border-color: $siteBlue;
+            border-style: solid;
+            border-width: 1px;
+        }
+    }
+    .button {
+        width: 818px;
+        height: 60px;
+        background-color: $siteBlue;
+        border-radius: 30px;
+        color: $siteWhite;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 37px;
+        border-color: $siteBlue;
+        border-style: solid;
+        border-width: 1px;
+        font-family: GillSans;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    #form {
+        padding: 10px;
+        .topBoxes {
+            flex-direction: column;
+            .shortBox {
+                width: 100%;
+            }
+            .longBox {
+                width: 100%;
+            }
+        }
+        .dropBoxes {
+            input {
+                width: 90px;
+            }
+        }
+    }
+}
